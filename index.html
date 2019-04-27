@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>King's Best Cuts</title>
+    <meta name="author" content="Tommy Perez">
+    <meta name="keywords" content="Barber Shop, Beard, Duncanville, Dallas, Texas">
+    <meta name="description" content="Professional barber shop specialized in beard trims in Duncanville, Texas">
+    <title>King's Best Cuts | Barber Shop</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet/style.css">
 </head>
 <body>
@@ -15,10 +19,16 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="banner-content">
-                            <img class="banner-icon img-fluid" src="./img/crown.png" alt="Kid">
+                        <i class="fas fa-crown d-none d-md-block"></i>
                         <h1 class="mb-5">King's Best Cuts</h1>
-                        <a class="about-btn mr-3" href="#summary">About us</a>
-                        <a class="map-btn" href="#map">We're hiring!</a>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 mb-5 md-mb-0 text-md-right">
+                                <a class="about-btn" href="#summary">About us</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 text-md-left">
+                                <a class="map-btn" href="#map">We're hiring!</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +104,8 @@
             <div class="row">
                 <div class="col-xl-12 text-center">
                     <h2>Barber prices</h2>
-                    <p>Combining traditional techniques with modern styles, providing cut, color, and shave services.</p>
+                    <h5><strong>$10 haircuts on Tuesdays!</strong></h5>
+                    <p>All haircuts on Tuesdays will only be $10 for everyone! Combining traditional techniques with modern styles, providing cut, color, and shave services.</p>
                     <ul>
                         <li><a class="hover-underline-animation" data-toggle="collapse" href="#haircut">Haircut</a></li>
                         <li><a class="hover-underline-animation" data-toggle="collapse" href="#shaving">Shaving</a></li>
@@ -221,18 +232,19 @@
                         <strong>We're hiring!</strong> We are looking for talented barbers who are ready to come work with us!
                         Please contact us for more information.
                     </h4>
-                    <div class="row mt-5">
+                    <div class="row my-5">
                         <div class="col-sm-12 col-md-4 mb-4 mb-md-0 text-center">
-                            <img class="icon img-fluid mb-3" src="./img/mail.png" alt="email">
+                            <img class="icon img-fluid mb-3" src="./img/email.png" alt="Email">
                             <h5>test@gmail.com</h5>
                         </div>
                         <div class="col-sm-12 col-md-4 mb-4 mb-md-0 text-center">
-                            <img class="icon img-fluid mb-3" src="./img/phone.png" alt="phone">
+                            <img class="icon img-fluid mb-3" src="./img/phone.png" alt="Phone">
                             <h5>555-555-5555</h5>
                         </div>
                         <div class="col-sm-12 col-md-4 mb-4 mb-lg-0 text-center">
-                            <img class="icon img-fluid mb-3" src="./img/clock.png" alt="phone">
-                            <h5>555-555-5555</h5>
+                            <img class="icon img-fluid mb-3" src="./img/clock.png" alt="Clock">
+                            <h5>Tues - Sun: 10:00am - 7:00pm</h5>
+                            <h5>Monday: Closed</h5>
                         </div>
                     </div>
                 </div>
@@ -241,18 +253,23 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="embed-responsive embed-responsive-21by9 mt-4">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.458687372366!2d-96.91034198482735!3d32.65220688101006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e91c57b624db7%3A0x1c0b3e993598a5da!2s118+N+Main+St%2C+Duncanville%2C+TX+75116!5e0!3m2!1sen!2sus!4v1555191865015!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-21by9 mt-5">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.458687372366!2d-96.91034198482735!3d32.65220688101006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e91c57b624db7%3A0x1c0b3e993598a5da!2s118+N+Main+St%2C+Duncanville%2C+TX+75116!5e0!3m2!1sen!2sus!4v1555191865015!5m2!1sen!2sus"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer>
+    <footer id="main-footer">
         <div class="container">
-            <div class="row">
-
+            <div class="row text-center-sm">
+                <div class="col-md-6">
+                    <p>&copy King's Best Cuts</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-lg-right">Developed by <a href="http://tommyrez.com" target="_blank" rel="noopener noreferrer">Tommy Perez</a></p>
+                </div>
             </div>
         </div>
     </footer>
