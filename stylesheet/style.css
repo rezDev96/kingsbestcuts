@@ -16,6 +16,9 @@ h5{
 .card{
     border: none;
 }
+.important{
+    color: #d79942;
+}
 #banner{
     height: 100vh;
     background-image: url('/img/banner.jpg');
@@ -87,7 +90,7 @@ h5{
     border-radius: 5px;
 }
 #services{
-    padding: 100px;
+    padding: 100px 0;
     background-image: url('/img/services-banner.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -105,27 +108,6 @@ h5{
 #prices{
     padding: 100px 0;
 }
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-}
-.hover-underline-animation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-.hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 #prices ul{
     padding-bottom: 20px;
     border-bottom: 1px solid #141010;
@@ -140,7 +122,7 @@ h5{
     color: #828282;
 }
 #accessories{
-    padding: 100px;
+    padding: 100px 0;
     background-image: url('/img/accessories.jpg');
     background-position: center center;
     background-repeat: no-repeat;
