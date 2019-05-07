@@ -156,9 +156,14 @@ h5{
 }
 @media only screen and (max-width: 600px) {
     .banner-content{
-        top: 100px;
+        top: 130px;
     }
     .banner-content h1{
-        font-size: 2.6rem;
+        font-size: 3.2rem;
+    }
+    .card{
+        width: 60%;
+        position: relative;
+        left: 20%;
     }
 }
