@@ -85,6 +85,9 @@ h5{
 #summary{
     padding: 100px 0;
 }
+#summary p{
+    font-size: 17px;
+}
 #summary img{
     height: 400px;
     border-radius: 5px;
@@ -101,12 +104,16 @@ h5{
 }
 #services p{
     color: #fff;
+    font-size: 17px;
 }
 .icon{
     height: 60px;
 }
 #prices{
     padding: 100px 0;
+}
+#prices p{
+    font-size: 17px;
 }
 #prices ul{
     padding-bottom: 20px;
