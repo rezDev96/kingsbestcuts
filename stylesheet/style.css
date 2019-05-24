@@ -86,7 +86,7 @@ h5{
     padding: 100px 0;
 }
 #summary p{
-    font-size: 17px;
+    font-size: 18px;
 }
 #summary img{
     height: 400px;
@@ -104,7 +104,7 @@ h5{
 }
 #services p{
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
 }
 .icon{
     height: 60px;
@@ -112,21 +112,11 @@ h5{
 #prices{
     padding: 100px 0;
 }
-#prices p{
-    font-size: 17px;
-}
-#prices ul{
+#prices .header-paragraph{
+    font-size: 18px;
     padding-bottom: 20px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #141010;
-}
-#prices ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 10px 10px;
-}
-#prices ul li a{
-    text-decoration: none;
-    color: #828282;
 }
 #accessories{
     padding: 100px 0;
