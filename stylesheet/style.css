@@ -13,6 +13,11 @@ h2{
 h5{
     font-weight: 700;
 }
+/* Text higlight style */
+::selection {
+    background: #d79942;
+    color: #fff;
+  }
 .card{
     border: none;
 }
